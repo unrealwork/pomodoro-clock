@@ -13,4 +13,16 @@ describe('App', () => {
         expect(wrapper).toBeDefined();
     });
 
+    test('contains an element with id="break-label" that contains a string', () => {
+        const breakLabel = wrapper.find('#break-label');
+        expect(breakLabel).toHaveLength(1);
+        expect(breakLabel.text()).toBe('Break Length')
+    });
+
+    test('contains an element with id="session-label" that contains a string', () => {
+       const sessionLabel = wrapper.find('#session-label');
+       expect(sessionLabel).toHaveLength(1);
+       expect(sessionLabel.text()).toBe('Session Length');
+    })
+
 });

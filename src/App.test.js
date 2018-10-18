@@ -24,10 +24,4 @@ describe('App', () => {
        expect(sessionLabel).toHaveLength(1);
        expect(sessionLabel.text()).toBe('Session Length');
     });
-
-    test('contains two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement"',
-        ()=> {
-            const f
-        })
-
 });

@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://unrealwork.github.io/pomodoro-clock",
   "dependencies": {
-    "bulma": "^0.7.2",
-    "marked": "^0.5.1",
+    "bulma": "^0.7.2",    "marked": "^0.5.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.0.5",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,8 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1"
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^2.0.1"
   }
 }

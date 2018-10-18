@@ -1,0 +1,9 @@
+@import "../node_modules/bulma/css/bulma.min.css";
+
+div#root {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    margin: 0;
+}
+

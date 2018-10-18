@@ -1,0 +1,41 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+sudo: false
+
+
+cache:
+  directories:
+  - node_modules
+
+before_script:
+  - yarn install
+
+branches:
+  only:
+  - master
+
+jobs:
+  include:
+  - stage: build
+    script: yarn build
+  - # stage name not required, will continue to use `test`
+  - stage: test
+    script: yarn test
+  - stage: deploy
+    script: yarn build
+    deploy:
+      provider: pages
+      skip_cleanup: true
+      keep-history: true
+      github-token: $GITHUB_TOKEN
+      local-dir: build
+    if: branch = master
+
+stages:
+- build
+- test
+
+

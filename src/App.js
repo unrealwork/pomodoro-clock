@@ -4,7 +4,7 @@ import './App.css';
 const Header = () => (
     <div className="content has-text-centered">
         <h1 className="heading is-2">Pomodoro Clock</h1>
-        <img src={"./favicon.png"}/>
+        <img alt={"Pomodoro logo"} src={"./favicon.png"}/>
     </div>
 );
 

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://unrealwork.github.io/pomodoro-clock",
   "dependencies": {
-    "bulma": "^0.7.2",    "marked": "^0.5.1",
+    "bulma": "^0.7.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",

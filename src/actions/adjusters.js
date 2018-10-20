@@ -1,9 +1,9 @@
 import {actionTypes} from "../reducers/reducers";
 
-export const increase = (fieldName) => {
-    return () => ({type: actionTypes.INCREMENT, field: fieldName})
+export const increase = (fieldName, min, max) => {
+    return () => ({type: actionTypes.INCREMENT, field: fieldName, min, max})
 };
 
-export const decrease = (fieldName) => {
-    return () => ({type: actionTypes.DECREMENT, field: fieldName})
+export const decrease = (fieldName, min, max) => {
+    return () => ({type: actionTypes.DECREMENT, field: fieldName, min, max})
 };

@@ -1,4 +1,4 @@
 # Pomodoro Clock
 
-[Demo](https://unrealwork.github.io/pomodoro-clock)
+This is [Demo](https://unrealwork.github.io/pomodoro-clock)
 
